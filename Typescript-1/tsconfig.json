@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",                // Versión de JS de salida
+    "module": "es6",                 // Módulo ES6 para usar 'import'/'export'
+    "outDir": "./",                  // No queremos usar carpeta de salida separada
+    "rootDir": "./",                 // La raíz del proyecto
+    "strict": true,
+    "esModuleInterop": true          // Soporte para módulos comunes
+  },
+  "include": ["*.ts"],               // Incluye todos los archivos .ts
+  "exclude": ["node_modules", "dist"] // Excluye los módulos y cualquier carpeta 'dist' antigua
+}
